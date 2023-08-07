@@ -8,7 +8,7 @@ Each line follows the format: “ID x y th”, where “ID” is a unique index 
 description of the edges of the pose graph. The ordering of the elements in the EDGES description becomes: “IDout IDindx dy dth I11 I12 I13 I22 I23 I33”. Moreover, the corresponding information matrices need to be changed.  
 ![Alt text](information_mat.png)
 ***
-## header files
+## Header files
 A brief explanation on header files.  
 ## Factory.h
 The Factory class is a crucial part of g2o's extensibility, allowing you to dynamically create different types of graph elements (vertices and edges) based on their associated tags. 
