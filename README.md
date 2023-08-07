@@ -29,7 +29,7 @@ Defines the SparseOptimizer class, which is a central component  managing and so
 This header [likely] contains utilities for parsing command-line arguments. It's used to handle command-line options and arguments passed to the program.
 ***
 # Optimization options
-**lm_var**[Levenberg-Marquardt], **gn_var**[Gauss-Newton (GN)], **dogleg**, **cg**[Conjugate Gradient], **cholmod**[Cholesky], **sparse_schur**[Sparse Schur], **pcg**[Preconditioned Conjugate Gradient]. 
+**lm_var**[Levenberg-Marquardt], **gn_var**[Gauss-Newton (GN)], **dogleg**, **cg**[Conjugate Gradient], **cholmod**[Cholesky], **sparse_schur**[Sparse Schur], **pcg**[Preconditioned Conjugate Gradient].  
 
 **solverProperty** is an instance of OptimizationAlgorithmProperty, which is a class provided by the g2o library to store properties of optimization algorithms.
 
