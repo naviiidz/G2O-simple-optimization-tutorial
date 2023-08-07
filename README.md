@@ -1,5 +1,5 @@
 # hands_on_Aug10
-Step by step learning g2o optimization
+Step by step learning g2o optimization \n
 Input file format:
 ## VERTICES (lines starting with “VERTEX_SE2” in g2o): 
 Description of the vertices of the pose graph: 
