@@ -13,7 +13,7 @@ A brief explanation on header files.
 The Factory class is a crucial part of g2o's extensibility, allowing you to dynamically create different types of graph elements (vertices and edges) based on their associated tags. 
 This is particularly useful for building and optimizing complex graph-based models used in robotics and computer vision applications. 
 The macros provided simplify the registration and usage of these types, making it easier to extend the functionality of the g2o library.
-## OptimizationFactory.h
+### OptimizationFactory.h
 The optimization_algorithm_factory.h header is part of the g2o library and is used for managing and creating instances of optimization algorithms for graph-based optimization problems. 
 This header provides functionalities to construct and manage optimization algorithms that can be used with the SparseOptimizer class to solve different types of optimization problems.
 The g2o library is designed to solve graph-based optimization problems, where 
@@ -21,13 +21,13 @@ Nodes represent variables and edges represent constraints between these variable
 Optimization algorithms are responsible for iteratively updating the variables to minimize the error between the observed and predicted measurements.
 This header provides a factory mechanism to create instances of various optimization algorithms. 
 It allows you to dynamically select and configure different optimization algorithms for solving optimization problems.
-### Usage:
+#### Usage:
 Constructing an Algorithm: The OptimizationAlgorithmFactory class in this header provides methods to construct optimization algorithms. You provide the name of the algorithm you want to create, and the factory constructs an instance of the corresponding algorithm.
 Algorithm Properties: The factory also provides properties and information about available algorithms. These properties include algorithm names, descriptions, and other relevant information.
-## sparse_optimizer.h
+### sparse_optimizer.h
 This header is also part of the g2o core module 
 Defines the SparseOptimizer class, which is a central component  managing and solving optimization problems involving sparse graphs.
-## command_args.h" 
+### command_args.h" 
 This header [likely] contains utilities for parsing command-line arguments. It's used to handle command-line options and arguments passed to the program.
 ***
 # Optimization options
