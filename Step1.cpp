@@ -12,9 +12,9 @@ SparseOptimizer optimizer; // creating an instance of the optimizer
 optimizer.setVerbose(true);
 
 // allocate the solver
-g2o::OptimizationAlgorithmProperty solverProperty;
+OptimizationAlgorithmProperty solverProperty;
 optimizer.setAlgorithm(
-g2o::OptimizationAlgorithmFactory::instance()->construct("lm_var",
+OptimizationAlgorithmFactory::instance()->construct("lm_var",
 solverProperty));
 
 }
