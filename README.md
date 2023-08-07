@@ -22,7 +22,7 @@ It allows you to dynamically select and configure different optimization algorit
 ### Usage:
 Constructing an Algorithm: The OptimizationAlgorithmFactory class in this header provides methods to construct optimization algorithms. You provide the name of the algorithm you want to create, and the factory constructs an instance of the corresponding algorithm.
 Algorithm Properties: The factory also provides properties and information about available algorithms. These properties include algorithm names, descriptions, and other relevant information.
-## sparce_optimizer.h
+## sparse_optimizer.h
 This header is also part of the g2o core module 
 Defines the SparseOptimizer class, which is a central component  managing and solving optimization problems involving sparse graphs.
 ## command_args.h" 
