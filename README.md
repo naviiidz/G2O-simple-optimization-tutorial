@@ -1,6 +1,6 @@
 # hands_on_Aug10
 Step by step learning g2o optimization. 
-#Input file format:
+## Input file format:
 ### VERTICES (lines starting with “VERTEX_SE2” in g2o): 
 Description of the vertices of the pose graph: 
 Each line follows the format: “ID x y th”, where “ID” is a unique index assigned to the corresponding pose,and “x”, “y”, “th” describe the initial guess (usually obtained from odometry) of the pose. “x” and “y” are the initial guess of node’s planar position, while “th” is the initial guess for node’s orientation (in radians); 
