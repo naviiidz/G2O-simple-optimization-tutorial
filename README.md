@@ -1,5 +1,5 @@
 # Installing guide
-Copy and Paste in a terminal:
+Copy and Paste in a terminal:  
 """
 git clone https://github.com/RainerKuemmerle/g2o.git
 cd g2o
