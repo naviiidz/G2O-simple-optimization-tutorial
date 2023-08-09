@@ -1,13 +1,13 @@
 # Installing guide
 Copy and Paste in a terminal:
-'''
+"""
 git clone https://github.com/RainerKuemmerle/g2o.git
 cd g2o
 mkdir build
 cd build
 cmake ../
 make
-'''
+"""
 # hands_on_Aug10
 Step by step learning g2o optimization. 
 ## Input file format:
