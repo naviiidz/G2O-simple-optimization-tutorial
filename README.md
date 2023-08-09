@@ -1,5 +1,5 @@
 # hands on session on Aug. 10
-# Installing guide
+# Installation guide
 Copy and Paste in a terminal:  
 ```
 git clone https://github.com/RainerKuemmerle/g2o.git
