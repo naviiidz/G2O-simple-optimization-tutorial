@@ -1,6 +1,6 @@
 # Installing guide
 Copy and Paste in a terminal:  
-"""
+"""ruby
 git clone https://github.com/RainerKuemmerle/g2o.git
 cd g2o
 mkdir build
