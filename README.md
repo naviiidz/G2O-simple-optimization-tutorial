@@ -1,4 +1,4 @@
-# hands_on_Aug10
+# hands on session on Aug. 10
 # Installing guide
 Copy and Paste in a terminal:  
 ```
