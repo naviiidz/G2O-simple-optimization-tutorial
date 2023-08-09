@@ -1,3 +1,4 @@
+# hands_on_Aug10
 # Installing guide
 Copy and Paste in a terminal:  
 ```
@@ -8,8 +9,7 @@ cd build
 cmake ../
 make
 ```  
-# hands_on_Aug10
-Step by step learning g2o optimization. 
+# Step by step learning g2o optimization. 
 ## Input file format:
 ### VERTICES (lines starting with “VERTEX_SE2” in g2o): 
 Description of the vertices of the pose graph: 
