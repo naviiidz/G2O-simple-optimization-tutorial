@@ -7,8 +7,20 @@ cd g2o
 mkdir build
 cd build
 cmake ../
-make
+sudo make
+sudo make install
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 ```  
+
+```
+clone this repository
+cd hands_on_Aug10
+mkdir build
+cd build
+cmake ../
+make
+```
+
 # Step by step learning g2o optimization. 
 ## Input file format:
 ### VERTICES (lines starting with “VERTEX_SE2” in g2o): 
